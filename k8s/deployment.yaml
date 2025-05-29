@@ -14,7 +14,7 @@ spec:
       spec:
         containers:
         - name: prova-fastapi
-          image: jkvuacamila/prova-fastapi-k8s
+          image: prova-fastapi 
           ports:
           - containerPort: 8000
 
