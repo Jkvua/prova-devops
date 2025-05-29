@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prova-fastapi
+spec:
+    replicas: 3
+    selector:
+      matchLabels:
+        app: prova-fastapi
+    template:
+      metadata:           
+        labels:
+          app: prova-fastapi
+      spec:
+        containers:
+        - name: prova-fastapi
+          image: jkvuacamila/prova-fastapi-k8s
+          ports:
+          - containerPort: 8000
+
