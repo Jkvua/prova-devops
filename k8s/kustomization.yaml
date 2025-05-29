@@ -6,4 +6,4 @@ resources:
 images:
 - name: prova-fastapi
   newName: jkvuacamila/prova-fastapi-k8s
-  newTag: d9731c479f761cd0668210571b7a88f65d22f856
+  newTag: ce5e8a988080caf692449db9fa7f9f63d154f705
