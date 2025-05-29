@@ -3,7 +3,7 @@ from fastapi import FastAPI
 app = FastAPI()
 @app.get("/")
 def read_root():
-    return {"message": "Hello World"}
+    return {"message": "Camila feito!"}
 
 @app.get("/square/{x}")
 def square(x: int):
